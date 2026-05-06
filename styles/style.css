@@ -239,17 +239,17 @@ ol {
   height: 298px;
   align-items: flex-end;
   overflow-y: auto;
-  padding-right: 3px;
+  padding-right: 1px;
 }
 
 .content__list-item {
-  padding: 3px;
+  margin-bottom: 27px;
 }
 
 .content__card-link {
   display: block;
-  color: white;
-  text-decoration: none;
+  height: auto;
+  padding: 0;
 }
 
 .content__card-link:active {
@@ -293,38 +293,41 @@ ol {
 
 .content__video-card {
   display: flex;
-  align-items: center;
-  gap: 12px;
-  width: 100%;
-  margin-bottom: 30px;
 }
 
 .content__video-card-description-container {
-  flex: 1 1 auto;
   min-width: 0;
+  width: 100%;
 }
 
 .content__video-card-title {
   display: block;
-  width: 100%;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  width: auto;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .content__video-card-description {
-  overflow: hidden;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color: white;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 4; 
+  overflow: hidden;
+  line-height: 1.2; 
 }
 
 .content__video-card-thumbnail {
-  flex: 0 0 auto;
-  width: min(35%, 194px);
+  width: 195px;
   height: auto;
-  aspect-ratio: 16 / 9;
   object-fit: cover;
+  object-position: center;
 }
 
 .more-button {
