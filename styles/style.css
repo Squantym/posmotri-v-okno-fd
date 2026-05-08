@@ -304,6 +304,8 @@ ol {
   font-size: 30px;
   line-height: 1;
   color: white;
+  margin-top: 4px;
+  margin-bottom: 6px;
   width: auto;
   white-space: nowrap;
   overflow: hidden;
